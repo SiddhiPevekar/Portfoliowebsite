@@ -208,7 +208,7 @@ body{
     text-decoration: none;
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 1100px){
 
     .main-header .main-header-2{
         font-size: 45px;
@@ -219,6 +219,40 @@ body{
 
     .main-header .main-header-3{
         font-size: 40px;
+        color: #66FCF1;
+        font-family: Montserrat;
+        font-weight: 600; 
+    }
+}
+
+@media screen and (max-width: 760px){
+
+    .main-header .main-header-2{
+        font-size: 45px;
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-weight: 600;
+    }
+
+    .main-header .main-header-3{
+        font-size: 30px;
+        color: #66FCF1;
+        font-family: Montserrat;
+        font-weight: 600; 
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .main-header .main-header-2{
+        font-size: 45px;
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-weight: 600;
+    }
+
+    .main-header .main-header-3{
+        font-size: 20px;
         color: #66FCF1;
         font-family: Montserrat;
         font-weight: 600; 
