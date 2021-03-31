@@ -335,7 +335,7 @@ body{
 
     .time-line .date:last-of-type{
         padding-bottom: 0;
-        margin-bottom: 0
+        margin-bottom: 0;
         border: none;
     }
 
