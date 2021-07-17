@@ -1,357 +1,369 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width= device-width, initial-scale= 1">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>portfolio</title>
-	<link rel="stylesheet" type="text/css" href="portfolio.css">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-	
-	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
-	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<!-- CSS only -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-	
-	<!-- JS, Popper.js, and jQuery -->
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-	
+    <meta charset="utf-8">
+    <meta name="viewport" content="width= device-width, initial-scale= 1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>portfolio</title>
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 </head>
+
 <body>
-	
-	<nav class="navbar fixed-top" data-aos="fade-down" data-aos-duration="3s" data-aos-easing="ease-in-out">
-		<span class="navbar-toggle" id="js-navbar-toggle">
+
+    <nav class="navbar fixed-top" data-aos="fade-down" data-aos-duration="3s" data-aos-easing="ease-in-out">
+        <span class="navbar-toggle" id="js-navbar-toggle">
 			<i class="fas fa-bars"></i>
 		</span>
-		<a href="https://siddhipevekar.netlify.app/" class="logo"><img src="logo.png"></a>
-		<ul class="main-nav" id="js-menu" >
-			<li>
-				<a href="#AboutMe" class="nav-links">About</a>
-			</li>
-			<li>
-				<a href="#Skills" class="nav-links">Skills</a>
-			</li>
-			<li>
-				<a href="#Exper" class="nav-links">Experience</a>
-			</li>
-			<li>
-				<a href="#Work" class="nav-links">Work</a>
-			</li>
-			<li id="Resume">
-				<a href="siddhipevekar.pdf" class="nav-links">Resume</a>
-			</li>
-		</ul>
-	</nav>
-	
-	<div class="main-content">
-		<div class="main-header align-items-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-			<h4 class="main-header-1">
-				Hi, my name is 
-			</h4>
-			<h1 class="main-header-2">
-				Siddhi Pevekar.
-			</h1>
-			<h1 class="main-header-3">
-				I am <span></span>
-			</h1>
-			<p>I am currently a second year engineering student at Mumbai University<br> pursuing a degree in Electronics and Telecommunications<br> from Rajiv Gandhi Institute of Technology.</p>
-			<button class="btn success"><a href="mailto:pevekarsiddhi@gmail.com">Get in Touch</a></button>
-			
-		</div>
-		
-		<div class="container" id="AboutMe">
-			<div class="section-heading" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-				<h2>About Me</h2>
-			</div>
-			<div class="row align-items-center">
-				<div class="col-xs offset-1 col-md-6" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-					<p>Hello, I am Miss Siddhi Pevekar and I am a web developer. I am passionate about combining software code with hardware components and building useful and noteworthy devices. I aim to build a women-safety device which is the necessity of every women across the world.</p>
-					<p>I am currently a second year engineering student at Mumbai University pursuing degree in Electronics ans Telecommunication from <a href="http://www.mctrgit.ac.in/aboutrgit.php">Rajiv Gandhi Institute of Technology</a>.</p>
-					<p>I love learning new ways and things which help me to make my knowledge strong which will allow me to work efficiently with available resources.</p>
-					<p>I aspire towards a career that will allow me to channel my creativity to do something great for my nation.</p>
-				</div>
-				
-				<div class="col-xs col-md-4" id="aboutimg" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-					<img class="img-fluid" src="siddhipevekar.jpg">
-				</div>
-			</div>
-		</div>
-		
-		<div class="container" id="Skills">
-			<div class="section-heading" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-				<h2>Skills</h2>
-			</div>
-			<div class="row justify-content-center" id="set1">
-				<div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-					<i class="devicon-html5-plain-wordmark"></i>
-				</div>
-				<div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-					<i class="devicon-css3-plain-wordmark"></i>
-				</div>
-				<div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-					<i class="devicon-laravel-plain-wordmark"></i>
-				</div>
-				<div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-					<i class="devicon-nodejs-plain-wordmark"></i>
-				</div>
-			</div>
-			<div class="row justify-content-center" id="set2">
-				<div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-					<i class="devicon-cplusplus-line"></i>
-				</div>
-				<div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-					<i class="devicon-javascript-plain"></i>
-				</div>
-				<div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-					<i class="devicon-mysql-plain-wordmark"></i>
-				</div>
-				<div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-					<i class="devicon-php-plain"></i>
-				</div>
-			</div>
-			
-			<div class="row justify-content-center" id="set3">
-				<div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-					<i class="devicon-jquery-plain-wordmark"></i>
-				</div>
-				<div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-					<i class="devicon-python-plain-wordmark"></i>
-				</div>
-				<div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-					<i class="devicon-bootstrap-plain"></i>
-				</div>
-				<div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-					<i class="devicon-c-line-wordmark"></i>
-				</div>
-			</div>
-			
-			<div class="row justify-content-center" id="set3">
-				<div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-					<i class="devicon-wordpress-plain"></i>
-				</div>
-				<div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-					<i class="devicon-express-original"></i>
-				</div>
-				<div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-					<i class="devicon-mongodb-plain-wordmark"></i>
-				</div>
-				<div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-					<i class="devicon-npm-original-wordmark"></i>
-				</div>
-			</div>
-		</div>
-		
-		<section class="Experience" id="Exper">
-			<div class="container">
-				<div class="section-heading" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-					<h2>Experience</h2>
-				</div>
-				<div class="time-line" id="Experience">
-					<ul id="content">
-						<li class="date" data-date="18 January 2021 - Present" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-							<h1>GirlScript Summer of Code</h1>
-							<h2>Open Source Developer</h2>
-							<div class="time">18 February 2021 - Present</div>
-							<!--<ul class="desc">
-								<li></li>
-							</ul>-->
-						</li>
-						
-						<li class="date" data-date="16 January 2021 - Present" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-							<h1>Helping Brainz NGO</h1>
-							<h2>Project Leader (Website development and Internet Research) -Full-time</h2>
-							<div class="time-position">16 February 2021 - Present</div>
-							<ul class="desc">
-								<li>Managing the website of organization and Designing the websites for organization's partner using WordPress.</li>
-								<li>Allotting tasks to the interns working under me. </li>
-							</ul>
-							
-							<h2 style="margin-top: 10px;">Web Developer -Internship</h2>
-							<div class="time-position">16 January - 15 February 2021</div>
-							<ul class="desc">
-								<li>Managed website of the organization using WordPress.</li>
-								<li>Developed and Designed the websites for organization's partner DishaGlobal.</li>
-								<li>Managed the website of MacLead organization using WordPress.</li>
-							</ul>
-						</li>
-						
-						<li class="date" data-date="20 December 2020 - Present" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-							<h1>Dyanarjan Education</h1>
-							<h2>Programming Tutor -Part-time</h2>
-							<div class="time">20 December 2020 - Present</div>
-							<ul class="desc">
-								<li>Planning and managing the content of programming languages.</li>
-								<li>Currently teaching C Programming language to the 12 or above 12 years old students.</li>
-							</ul>
-						</li>
-						<li class="date" data-date="13 September 2020 - Present" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-							<h1>RGIT CodeCell</h1>
-							<h2>Web Development Team Member</h2>
-							<div class="time">13 September 2020 - Present</div>
-							<ul class="desc">
-								<li>Contributed in development of the responsive website of cell.</li>
-								<li>It's designing was done using the front-end technologies namely Html, CSS, Bootstrap.</li>
-							</ul>
-						</li>
-						<li class="date" data-date="6 September 2020 - Present" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-							<h1>WeAreSAATH Organisation</h1>
-							<h2>Web Developer -Full-time</h2>
-							<div class="time-position">7 October 2020 - Present</div>
-							<ul class="desc">
-								<li>Maintaining a responsive website using WordPress.</li>
-							</ul>
-							
-							<h2 style="margin-top: 10px;">Web Developer -Internship</h2>
-							<div class="time-position">6 September - 6 October 2020</div>
-							<ul class="desc">
-								<li>Developed a responsive website using WordPress.</li>
-								<li>Used Elementor plugin to design the pages of the website.</li>
-								<li>Used plugins like mySticky Menu, Counter number showcase, Testimonals, WPForms, Facebook Popup Likebox, Wp Maintenance Mode, SiteOrigin CSS, etc to design and maintain the website.</li>
-							</ul>
-						</li>
-						<li class="date" data-date="26 May - 26 August 2020" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-							<h1>Ahimsagram</h1>
-							<h2>Web Developer -Internship</h2>
-							<div class="time">26 May - 26 August 2020</div>
-							<ul class="desc">
-								<li>Developed a responsive website using WordPress.</li>
-								<li>Used Elementor to design the pages of the website.</li>
-								<li>Used plugins like WPForms, mySticky Menu, SiteOrigin CSS, etc.</li>
-							</ul>
-						</li>
-						<li class="date" data-date="25 May - 25 July 2020" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-							<h1>Learnweel</h1>
-							<h2>Web Developer -Internship</h2>
-							<div class="time">25 May - 25 July 2020</div>
-							<ul class="desc">
-								<li>Developed admin-panel, specifically worked on adding products module using Laravel framework.</li>
-								<li>It's designing was done using the front-end technologies namely Html, CSS, Bootstrap, JavaScript.</li>
-								<li>The data of the products was saved in the database using MySQL. Each field was validated for client side as well as server side and made sure the images that were stored were compressed in order to reduce server space.</li>
-							</ul>
-						</li>
-						<li class="date" data-date="1 May - 30 May 2020" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-							<h1>SahuTechnologies</h1>
-							<h2>Technical Content Writer -Internship</h2>
-							<div class="time">1 May - 30 May 2020</div>
-							<ul class="desc">
-								<li>Created a technical documentation on C programming language.</li>
-								<li>The documentation consists of sub-topics like error handling, preprocessors and many more including basic syntax of the language.</li>
-								<li>The documentation also includes interview questions, practice programs and quick reference guides.</li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</section>
-		
-		<div class="container" id="Work">
-			<div class="section-heading" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-				<h2>Some Things I have built</h2>
-			</div>
-			
-			<div class="swiper-container">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide">
-						<div class="row justify-content-center  align-items-center">
-							<div class="col-md-5" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-								<img class=" img-fluid 100  m-0 p-0" src="p2.png">
-							</div>
-							<div class="col-md-6" id="box" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-								<h1>Text-Analyser</h1>
-								<p>This is the web project implemented using Html, Css and Javascript. The use of jquery library is done in some places. In this project, the user can type or paste the text and the user can find the numbers of words, vowels, sentences, spaces, etc. on the resulting page.</p>
-								<h2>Web Development</h2>
-								<a href="https://github.com/SiddhiPevekar/TextAnalyser.git" class="github"><i class="fab fa-github"></i></a>
-								<a href="https://text-analyser.netlify.app/welcome.html" class="external"><i class="fas fa-external-link-alt"></i></a>
-							</div>
-						</div>
-					</div>
-					
-					<div class="swiper-slide">
-						<div class="row justify-content-center  align-items-center">
-							<div class="col-md-5" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-								<img class=" img-fluid 100  m-0 p-0" src="p1.png">
-							</div>
-							<div class="col-md-6" id="box" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
-								<h1>Tricolor</h1>
-								<p>This is the small implementation using Python Tkinter. The use of turtle, winsound, time is done. In this project, the Indian National flag is formed step by step and after the flag completely gets ready, the National Anthem is played using winsound libraryin the background.</p>
-								<h2>Python Tkinter</h2>
-								<a href="https://github.com/SiddhiPevekar/Indian-Flag-Using-PythonTkinter.git" class="github"><i class="fab fa-github"></i></a>
-								<a href="Tricolor.mp4" class="external"><i class="fas fa-external-link-alt"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-			
-		</div>
-	</div>
-	
-	<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-	<script>
-		var swiper = new Swiper('.swiper-container', {
-			effect: 'coverflow',
-			grabCursor: true,
-			centeredSlides: true,
-			slidesPerView: 'auto',
-			coverflowEffect: {
-				rotate: 50,
-				stretch: 0,
-				depth: 100,
-				modifier: 1,
-				slideShadows: true,
-			},
-			pagination: {
-				el: '.swiper-pagination',
-			},
-		});
-	</script>
-	
-	<div class="icon-bar">	
-		<a href="https://www.linkedin.com/in/siddhi-pevekar-23j?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B1XXCtneFTQ2bkfhNsNYXhg%3D%3D" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
-		<a href="https://github.com/SiddhiPevekar" class="github"><i class="fab fa-github"></i></a>
-		<a href="https://twitter.com/PevekarSiddhi" class="twitter"><i class="fab fa-twitter"></i></a>
-		<a href="https://www.hackerrank.com/pevekarsiddhi"><i class="fab fa-hackerrank"></i>
-		</a>
-	</div>
-	
-	<div class="credits">Designed & Built by <a href="https://www.linkedin.com/in/siddhi-pevekar-23j?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B1XXCtneFTQ2bkfhNsNYXhg%3D%3D">Siddhi Pevekar</a></div>
-</div>
+        <a href="https://siddhipevekar.netlify.app/" class="logo"><img src="logo.png"></a>
+        <ul class="main-nav" id="js-menu">
+            <li>
+                <a href="#AboutMe" class="nav-links">About</a>
+            </li>
+            <li>
+                <a href="#Exper" class="nav-links">Experience</a>
+            </li>
+            <li>
+                <a href="#Skills" class="nav-links">Skills</a>
+            </li>
+            <li>
+                <a href="#Work" class="nav-links">Work</a>
+            </li>
+            <li id="Resume">
+                <a href="siddhipevekar.pdf" class="nav-links">Resume</a>
+            </li>
+        </ul>
+    </nav>
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-	AOS.init();
-</script>
+    <div class="main-content">
+        <div class="main-header align-items-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+            <h4 class="main-header-1">
+                Hi, my name is
+            </h4>
+            <h1 class="main-header-2">
+                Siddhi Pevekar.
+            </h1>
+            <h1 class="main-header-3">
+                I am <span></span>
+            </h1>
+            <p>I am currently a second year engineering student at Mumbai University<br> pursuing a degree in Electronics and Telecommunications<br> from Rajiv Gandhi Institute of Technology.</p>
+            <button class="btn success"><a href="mailto:pevekarsiddhi@gmail.com">Get in Touch</a></button>
+
+        </div>
+
+        <div class="container" id="AboutMe">
+            <div class="section-heading" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                <h2>About Me</h2>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-xs offset-1 col-md-6" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                    <p>Hello, I am Miss Siddhi Pevekar and I am a web developer. I am passionate about combining software code with hardware components and building useful and noteworthy devices. I aim to build a women-safety device which is the necessity
+                        of every women across the world.</p>
+                    <p>I am currently a second year engineering student at Mumbai University pursuing degree in Electronics ans Telecommunication from <a href="http://www.mctrgit.ac.in/aboutrgit.php">Rajiv Gandhi Institute of Technology</a>.</p>
+                    <p>I love learning new ways and things which help me to make my knowledge strong which will allow me to work efficiently with available resources.</p>
+                    <p>I aspire towards a career that will allow me to channel my creativity to do something great for my nation.</p>
+                </div>
+
+                <div class="col-xs col-md-4" id="aboutimg" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                    <img class="img-fluid" src="siddhipevekar.jpg">
+                </div>
+            </div>
+        </div>
+
+        <section class="Experience" id="Exper">
+            <div class="container">
+                <div class="section-heading" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                    <h2>Experience</h2>
+                </div>
+                <div class="time-line" id="Experience">
+                    <ul id="content">
+                        <!-- <li class="date" data-date="18 January 2021 - Present" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                            <h1>GirlScript Summer of Code</h1>
+                            <h2>Open Source Developer</h2>
+                            <div class="time">18 February 2021 - Present</div>
+                            <ul class="desc">
+								<li></li>
+							</ul>
+                        </li> -->
+                        <li class="date" data-date="16 January 2021 - Present" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                            <h1>Helping Brainz NGO</h1>
+                            <h2>Project Leader (Website development and Internet Research) -Full-time</h2>
+                            <div class="time-position">16 February 2021 - Present</div>
+                            <ul class="desc">
+                                <li>Worked on website design using WordPress.</li>
+                                <li>Managing the website of organization and Developing the websites for organization's partners.</li>
+                                <li>Planning and developing the improvement factors for website.</li>
+                                <li>Planning and allotting tasks to the interns working in Web Development domain.</li>
+                            </ul>
+
+                            <h2 style="margin-top: 10px;">Technical and Social developer -Internship</h2>
+                            <div class="time-position">16 January - 15 February 2021</div>
+                            <ul class="desc">
+                                <li>Managed website of the organization using WordPress.</li>
+                                <li>Joined the organization as a Technical and Social development intern and got promoted to the position of project leader.</li>
+                                <!-- <li>Developed and Designed the websites for organization's partner DishaGlobal.</li>
+                                <li>Managed the website of MacLead organization using WordPress.</li> -->
+                            </ul>
+                        </li>
+
+                        <li class="date" data-date="20 December 2020 - Present" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                            <h1>Dyanarjan Education</h1>
+                            <h2>Programming Instructor -Part-time</h2>
+                            <div class="time">20 December 2020 - Present</div>
+                            <ul class="desc">
+                                <li>Planning and managing the content of programming languages.</li>
+                                <li>Currently teaching C Programming language to the 12 or above 12 years old students.</li>
+                            </ul>
+                        </li>
+                        <li class="date" data-date="13 September 2020 - Present" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                            <h1>RGIT CodeCell</h1>
+                            <h2>Web Development Team Member</h2>
+                            <div class="time">13 September 2020 - Present</div>
+                            <ul class="desc">
+                                <li>Contributed in development of the responsive website of cell.</li>
+                                <li>It's designing was done using the front-end technologies namely Html, CSS, Bootstrap.</li>
+                            </ul>
+                        </li>
+                        <li class="date" data-date="6 September 2020 - Present" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                            <h1>WeAreSAATH Organisation</h1>
+                            <h2>Web Developer -Full-time</h2>
+                            <div class="time-position">7 October 2020 - Present</div>
+                            <ul class="desc">
+                                <li>Currently maintaining the website and working on the development factors of the website.</li>
+                            </ul>
+
+                            <h2 style="margin-top: 10px;">Web Developer -Internship</h2>
+                            <div class="time-position">6 September - 6 October 2020</div>
+                            <ul class="desc">
+                                <li>Worked on website design using WordPress.</li>
+                                <li>Developed the website using Elementor plugin and various plugins like mySticky Menu, Counter number showcase, Testimonals, WPForms, Facebook Popup Likebox, Wp Maintenance Mode, SiteOriginCss, etc.</li>
+                                <li>Joined the organization as a Web development intern and got selected as a full-time web development volunteer in the organization.</li>
+                            </ul>
+                        </li>
+                        <li class="date" data-date="26 May - 26 August 2020" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                            <h1>Ahimsagram</h1>
+                            <h2>Web Developer -Internship</h2>
+                            <div class="time">26 May - 26 August 2020</div>
+                            <ul class="desc">
+                                <li>Developed a responsive website using WordPress.</li>
+                                <li>Used Elementor to design the pages of the website.</li>
+                                <li>Used plugins like WPForms, mySticky Menu, SiteOrigin CSS, etc.</li>
+                            </ul>
+                        </li>
+                        <li class="date" data-date="25 May - 25 July 2020" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                            <h1>Learnweel</h1>
+                            <h2>Web Developer -Internship</h2>
+                            <div class="time">25 May - 25 July 2020</div>
+                            <ul class="desc">
+                                <li>Worked on admin-panel using Laravel framework.</li>
+                                <li>Developed the front-end technologies namely Html, CSS, Bootstrap, JavaScript.</li>
+                                <li>The data of the products was saved in the database using MySQL. Each field was validated for client side as well as server side and made sure the images that were stored were compressed in order to reduce server space.</li>
+                            </ul>
+                        </li>
+                        <li class="date" data-date="1 May - 30 May 2020" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                            <h1>SahuTechnologies</h1>
+                            <h2>Technical Content Writer -Internship</h2>
+                            <div class="time">1 May - 30 May 2020</div>
+                            <ul class="desc">
+                                <li>Created a technical documentation on C programming language.</li>
+                                <li>The documentation consists of sub-topics like error handling, preprocessors and many more including basic syntax of the language.</li>
+                                <li>The documentation also includes interview questions, practice programs and quick reference guides.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="container" id="Skills">
+            <div class="section-heading" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                <h2>Skills</h2>
+            </div>
+            <div class="row justify-content-center" id="set1">
+                <div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                    <i class="devicon-c-line-wordmark"></i>
+                </div>
+                <div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                    <i class="devicon-python-plain-wordmark"></i>
+                </div>
+                <div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                    <i class="devicon-html5-plain-wordmark"></i>
+                </div>
+                <div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                    <i class="devicon-css3-plain-wordmark"></i>
+                </div>
+                <!-- <div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                    <i class="devicon-nodejs-plain-wordmark"></i>
+                </div> -->
+            </div>
+            <div class="row justify-content-center" id="set2">
+                <div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                    <i class="devicon-javascript-plain"></i>
+                </div>
+                <div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                    <i class="devicon-bootstrap-plain"></i>
+                </div>
+                <div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                    <i class="devicon-wordpress-plain"></i>
+                </div>
+                <div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                    <i class="devicon-mysql-plain-wordmark"></i>
+                </div>
+            </div>
+
+            <div class="row justify-content-center" id="set3">
+                <div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                    <!-- <i class="devicon-npm-original-wordmark"></i> -->
+                    <i class="devicon-django-line"></i>
+                </div>
+                <div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                    <i class="devicon-react-original-wordmark colored"></i>
+                </div>
+                <div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                    <i class="devicon-cplusplus-line"></i>
+                </div>
+                <div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                    <i class="devicon-laravel-plain-wordmark"></i>
+                </div>
+            </div>
+
+            <div class="row justify-content-center" id="set3">
+                <div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                    <i class="devicon-mongodb-plain-wordmark"></i>
+                </div>
+                <div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                    <!-- <i class="devicon-express-original"></i> -->
+                    <i class="devicon-sass-original"></i>
+                </div>
+                <div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                    <i class="devicon-php-plain"></i>
+                </div>
+                <div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                    <i class="devicon-jquery-plain-wordmark"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="Work">
+            <div class="section-heading" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                <h2>Some Things I have built</h2>
+            </div>
+
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="row justify-content-center  align-items-center">
+                            <div class="col-md-5" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                                <img class=" img-fluid 100  m-0 p-0" src="p2.png">
+                            </div>
+                            <div class="col-md-6" id="box" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                                <h1>Text-Analyser</h1>
+                                <p>This is the web project implemented using Html, Css and Javascript. The use of jquery library is done in some places. In this project, the user can type or paste the text and the user can find the numbers of words, vowels,
+                                    sentences, spaces, etc. on the resulting page.</p>
+                                <h2>Web Development</h2>
+                                <a href="https://github.com/SiddhiPevekar/TextAnalyser.git" class="github"><i class="fab fa-github"></i></a>
+                                <a href="https://text-analyser.netlify.app/welcome.html" class="external"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="row justify-content-center  align-items-center">
+                            <div class="col-md-5" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                                <img class=" img-fluid 100  m-0 p-0" src="p1.png">
+                            </div>
+                            <div class="col-md-6" id="box" data-aos="zoom-in" data-aos-duration="3s" data-aos-easing="ease-in-out">
+                                <h1>Tricolor</h1>
+                                <p>This is the small implementation using Python Tkinter. The use of turtle, winsound, time is done. In this project, the Indian National flag is formed step by step and after the flag completely gets ready, the National Anthem
+                                    is played using winsound libraryin the background.</p>
+                                <h2>Python Tkinter</h2>
+                                <a href="https://github.com/SiddhiPevekar/Indian-Flag-Using-PythonTkinter.git" class="github"><i class="fab fa-github"></i></a>
+                                <a href="Tricolor.mp4" class="external"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
+
+    <div class="icon-bar">
+        <a href="https://www.linkedin.com/in/siddhi-pevekar-23j?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B1XXCtneFTQ2bkfhNsNYXhg%3D%3D" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/SiddhiPevekar" class="github"><i class="fab fa-github"></i></a>
+        <a href="https://twitter.com/PevekarSiddhi" class="twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.hackerrank.com/pevekarsiddhi"><i class="fab fa-hackerrank"></i>
+		</a>
+    </div>
+
+    <div class="credits">Designed & Built by <a href="https://www.linkedin.com/in/siddhi-pevekar-23j?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B1XXCtneFTQ2bkfhNsNYXhg%3D%3D">Siddhi Pevekar</a></div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
+
 </html>
 
 <script type="text/javascript">
-	let mainNav = document.getElementById('js-menu');//returns a HTML DOM Object (javascript)
-	let navBarToggle = document.getElementById('js-navbar-toggle');
-	
-	navBarToggle.addEventListener('click', function () {
-		mainNav.classList.toggle('active');
-	});
+    let mainNav = document.getElementById('js-menu'); //returns a HTML DOM Object (javascript)
+    let navBarToggle = document.getElementById('js-navbar-toggle');
+
+    navBarToggle.addEventListener('click', function() {
+        mainNav.classList.toggle('active');
+    });
 </script>
 
 <script type="text/javascript">
-	document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-		anchor.addEventListener('click', function (e) {
-			e.preventDefault();
-			
-			document.querySelector(this.getAttribute('href')).scrollIntoView({
-				behavior: 'smooth'
-			});
-		});
-	});
-</script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
 
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>

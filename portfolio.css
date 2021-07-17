@@ -1,5 +1,5 @@
-body{
-    background-color: #0A192F !important; 
+body {
+    background-color: #0A192F !important;
 }
 
 .navbar {
@@ -14,7 +14,7 @@ body{
     display: none;
 }
 
-.nav-links{
+.nav-links {
     text-decoration: none;
     margin-left: 40px;
     color: #8892B0;
@@ -23,12 +23,12 @@ body{
     font-size: 14px;
 }
 
-.logo img{
+.logo img {
     height: 60px;
 }
 
-.main-nav #Resume a{
-    border:solid 1px #66FCF1;
+.main-nav #Resume a {
+    border: solid 1px #66FCF1;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
@@ -59,7 +59,7 @@ body{
     display: block;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .main-nav {
         margin-top: 20px;
         margin-left: 20px;
@@ -74,18 +74,15 @@ body{
         height: 70px;
         align-items: center;
     }
-
     .main-nav {
         display: flex;
         margin-right: 30px;
         flex-direction: row;
         justify-content: flex-end;
     }
-
     .main-nav li {
         margin: 0;
     }
-
     .nav-links {
         margin-left: 40px;
         color: #8892B0;
@@ -93,63 +90,62 @@ body{
         font-family: Verdana;
         font-size: 14px;
     }
-
     .navbar-toggle {
         display: none;
     }
 }
 
-.main-header{
+.main-header {
     padding-top: 150px;
-    text-align: center; 
+    text-align: center;
 }
 
-.main-header .main-header-1{
+.main-header .main-header-1 {
     color: #66FCF1;
     font-size: 16px;
     font-weight: 500;
     font-family: Verdana;
 }
 
-.main-header .main-header-2{
+.main-header .main-header-2 {
     font-size: 80px;
     color: rgb(255, 255, 255);
     font-family: Montserrat;
     font-weight: 600;
 }
 
-.main-header .main-header-3{
+.main-header .main-header-3 {
     font-size: 70px;
     color: #66FCF1;
     font-family: Montserrat;
-    font-weight: 600; 
+    font-weight: 600;
 }
 
-.main-header span:before{
+.main-header span:before {
     content: '';
     animation: animate infinite 8s;
 }
 
-@keyframes animate{
+@keyframes animate {
     /*When you specify CSS styles inside the @keyframes rule, the animation will gradually change from the current style to the new style at certain times.*/
-    0%{
+    0% {
         content: 'an EXTC Engineering Student.';
     }
-    25%{
+    25% {
         content: 'an EXTC Engineering Student.';
     }
-    40%{
+    40% {
         content: 'a Web Developer.';
     }
-    70%{
+    70% {
         content: 'an Artist.';
     }
-    100%{
+    100% {
         content: 'a Technical Content Writer.';
     }
 }
 
-.main-header p{
+.main-header p {
     color: #8892B0;
     padding-top: 10px;
     font-family: Verdana;
@@ -157,111 +153,103 @@ body{
     line-height: 2rem
 }
 
-.btn{
+.btn {
     margin-top: 30px;
 }
 
-.btn{
-    transition: transform 3s ease;/*transition is used for movement*/
-}
-.btn:hover{
-    animation: pulse 1s linear infinite; /*pulse is the animation*/
+.btn {
+    transition: transform 3s ease;
+    /*transition is used for movement*/
 }
 
-@keyframes pulse{
-    0%{
-        transform: scale(1);/*transform into size or shift*/
+.btn:hover {
+    animation: pulse 1s linear infinite;
+    /*pulse is the animation*/
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        /*transform into size or shift*/
     }
-
-    25%{
+    25% {
         transform: scale(1.2);
     }
-
-    50%{
+    50% {
         transform: scale(1.5);
     }
-
-    75%{
+    75% {
         transform: scale(1.2);
     }
-
-    100%{
+    100% {
         transform: scale(1);
     }
 }
 
-.btn a{
+.btn a {
     color: #66FCF1;
     font-family: Montserrat;
-    font-size: 20px; 
-    border:solid 1px #66FCF1;
+    font-size: 20px;
+    border: solid 1px #66FCF1;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 5px;
-
 }
 
-.btn a:hover{
+.btn a:hover {
     color: #66FCF1;
     text-decoration: none;
 }
 
-@media screen and (max-width: 1100px){
-
-    .main-header .main-header-2{
+@media screen and (max-width: 1100px) {
+    .main-header .main-header-2 {
         font-size: 45px;
         color: rgb(255, 255, 255);
         font-family: Montserrat;
         font-weight: 600;
     }
-
-    .main-header .main-header-3{
+    .main-header .main-header-3 {
         font-size: 40px;
         color: #66FCF1;
         font-family: Montserrat;
-        font-weight: 600; 
+        font-weight: 600;
     }
 }
 
-@media screen and (max-width: 760px){
-
-    .main-header .main-header-2{
+@media screen and (max-width: 760px) {
+    .main-header .main-header-2 {
         font-size: 45px;
         color: rgb(255, 255, 255);
         font-family: Montserrat;
         font-weight: 600;
     }
-
-    .main-header .main-header-3{
+    .main-header .main-header-3 {
         font-size: 30px;
         color: #66FCF1;
         font-family: Montserrat;
-        font-weight: 600; 
+        font-weight: 600;
     }
 }
 
-@media screen and (max-width: 500px){
-
-    .main-header .main-header-2{
+@media screen and (max-width: 500px) {
+    .main-header .main-header-2 {
         font-size: 45px;
         color: rgb(255, 255, 255);
         font-family: Montserrat;
         font-weight: 600;
     }
-
-    .main-header .main-header-3{
+    .main-header .main-header-3 {
         font-size: 20px;
         color: #66FCF1;
         font-family: Montserrat;
-        font-weight: 600; 
+        font-weight: 600;
     }
 }
 
-@media screen and (min-width: 870px){
-
-    .credits{
+@media screen and (min-width: 870px) {
+    .credits {
         text-align: center;
         color: #8892B0;
         padding-top: 50px;
@@ -269,8 +257,7 @@ body{
         font-size: 16px;
         padding-bottom: 30px;
     }
-
-    .credits a{
+    .credits a {
         text-align: center;
         color: #8892B0;
         padding-top: 50px;
@@ -278,12 +265,10 @@ body{
         font-size: 16px;
         padding-bottom: 30px;
     }
-
-    .credits a:hover{
+    .credits a:hover {
         text-decoration: none;
         color: #66FCF1;
     }
-
     .icon-bar {
         position: fixed;
         bottom: 3%;
@@ -292,30 +277,29 @@ body{
         transform: translateY(-50%);
         margin-left: 30px;
     }
-
     .icon-bar a {
-        display: block;/*Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width*/
+        display: block;
+        /*Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width*/
         text-align: center;
         padding: 15px;
-        transition: all 0.3s ease;/*CSS transitions allows you to change property values smoothly, over a given duration*/
+        transition: all 0.3s ease;
+        /*CSS transitions allows you to change property values smoothly, over a given duration*/
         color: rgb(219, 219, 219);
         font-size: 25px;
     }
-
-    .icon-bar a:hover{
-        color:#66FCF1;
+    .icon-bar a:hover {
+        color: #66FCF1;
     }
-
-    .Experience{
+    .Experience {
         margin-top: 50px;
         padding-top: 100px;
         padding-bottom: 30px;
     }
-    #Experience{
+    #Experience {
         margin-left: 150px;
     }
-
-    .time-line #content{/*stick*/
+    .time-line #content {
+        /*stick*/
         border-left: 4px solid #66FCF1;
         border-radius: 0.8rem;
         background-color: rgb(0, 0, 0, 0.05);
@@ -327,28 +311,26 @@ body{
         width: 70%;
         margin-top: 30px;
     }
-    .time-line .date{
+    .time-line .date {
         margin-bottom: 1rem;
         padding-bottom: 1rem;
         position: relative;
     }
-
-    .time-line .date:last-of-type{
+    .time-line .date:last-of-type {
         padding-bottom: 0;
         margin-bottom: 0;
         border: none;
     }
-
     /*both for date and symbol*/
     .time-line .date:before,
-    .time-line .date:after{
+    .time-line .date:after {
         position: absolute;
         display: block;
         top: 5%;
-        transform:translateY(-50%); /*The transform property applies a 2D or 3D transformation to an element. This property allows you to rotate, scale, move, skew, etc., elements.*/
+        transform: translateY(-50%);
+        /*The transform property applies a 2D or 3D transformation to an element. This property allows you to rotate, scale, move, skew, etc., elements.*/
     }
-
-    .time-line .date:before{
+    .time-line .date:before {
         content: attr(data-date);
         left: -18.3rem;
         text-align: right;
@@ -357,25 +339,22 @@ body{
         font-weight: 400;
         color: #8892B0;
     }
-
-    .time-line .date:after{
+    .time-line .date:after {
         content: '';
         box-shadow: 0 0 0 4px #66FCF1;
         border-radius: 100%;
-        left:-5.7rem;
+        left: -5.7rem;
         height: 1rem;
         width: 1rem;
         background-color: #313534;
     }
-
-    .time{
+    .time {
         display: none;
     }
 }
 
-@media screen and (max-width: 870px){
-
-    .credits{
+@media screen and (max-width: 870px) {
+    .credits {
         text-align: center;
         color: #8892B0;
         padding-top: 20px;
@@ -383,8 +362,7 @@ body{
         font-size: 16px;
         padding-bottom: 20px;
     }
-
-    .credits a{
+    .credits a {
         text-align: center;
         color: #8892B0;
         padding-top: 50px;
@@ -392,53 +370,46 @@ body{
         font-size: 16px;
         padding-bottom: 30px;
     }
-
-    .credits a:hover{
+    .credits a:hover {
         text-decoration: none;
         color: #66FCF1;
     }
-
-    .icon-bar{
+    .icon-bar {
         text-align: center;
         padding-top: 50px;
     }
-    .icon-bar a{
+    .icon-bar a {
         text-align: center;
         color: rgb(219, 219, 219);
         padding-right: 20px;
         font-size: 30px;
     }
-
-    .icon-bar a:hover{
-        color:#66FCF1;
+    .icon-bar a:hover {
+        color: #66FCF1;
     }
-
-    .Experience .time-line .date{
+    .Experience .time-line .date {
         list-style: none;
         padding-bottom: 30px;
     }
-
-    .Experience{
+    .Experience {
         margin-top: 50px;
         padding-top: 100px;
         align-items: center;
     }
-
-    .time{
+    .time {
         font-size: 12.5px;
         font-weight: 400;
         color: #8892B0;
         background: transparent;
     }
-
 }
 
-#AboutMe{
+#AboutMe {
     margin-top: 50px;
     padding-top: 100px;
 }
 
-#AboutMe .section-heading h2{
+#AboutMe .section-heading h2 {
     text-align: center !important;
     color: rgb(219, 219, 219);
     font-weight: bold;
@@ -447,29 +418,30 @@ body{
     border-bottom: solid 1px #66FCF1;
 }
 
-#AboutMe p{
+#AboutMe p {
     color: #8892B0;
     font-family: Verdana;
     font-size: 15px;
     line-height: 2rem;
 }
 
-#AboutMe p a{
+#AboutMe p a {
     color: #66FCF1;
 }
-#AboutMe img{
+
+#AboutMe img {
     height: auto;
     width: 250px;
-    border:solid 3px #66FCF1;
+    border: solid 3px #66FCF1;
     border-radius: 5px;
     padding: 5px;
 }
 
-#AboutMe #aboutimg{
+#AboutMe #aboutimg {
     text-align: center;
 }
 
-.Experience .section-heading h2{
+.Experience .section-heading h2 {
     text-align: center !important;
     color: rgb(219, 219, 219);
     font-weight: bold;
@@ -478,7 +450,7 @@ body{
     border-bottom: solid 1px #66FCF1;
 }
 
-.time-line h1{
+.time-line h1 {
     font-size: 1.3rem;
     font-weight: 400;
     margin-bottom: 1rem;
@@ -486,33 +458,34 @@ body{
     font-family: Georgia;
 }
 
-.time-line h2{
+.time-line h2 {
     font-size: 1.2rem;
     font-family: Georgia;
     color: rgb(168, 168, 168);
 }
 
-#Experience .date .time-position{
+#Experience .date .time-position {
     font-size: 12.5px;
     font-weight: 400;
     color: #8892B0;
 }
-.time-line .desc li{
+
+.time-line .desc li {
     color: #8892B0;
     font-family: Verdana;
     font-size: 15px;
-    line-height: 2rem;  
+    line-height: 2rem;
     list-style: none;
     margin-left: -2rem;
 }
 
-.time-line .desc li:before{
+.time-line .desc li:before {
     content: '\27A4';
-    color:#66FCF1;
+    color: #66FCF1;
     padding-right: 1rem;
 }
 
-#Skills .section-heading h2{
+#Skills .section-heading h2 {
     text-align: center !important;
     color: rgb(219, 219, 219);
     font-weight: bold;
@@ -520,23 +493,23 @@ body{
     border-bottom: solid 1px #66FCF1;
 }
 
-#Skills{
+#Skills {
     margin-top: 50px;
     padding-top: 100px;
 }
 
-#Skills i{
+#Skills i {
     font-size: 100px;
     color: #8892B0;
     margin-top: 50px;
 }
 
-#Work{
+#Work {
     margin-top: 50px;
     padding-top: 100px;
 }
 
-#Work .section-heading h2{
+#Work .section-heading h2 {
     text-align: center !important;
     color: rgb(219, 219, 219);
     font-weight: bold;
@@ -545,7 +518,7 @@ body{
     border-bottom: solid 1px #66FCF1;
 }
 
-#Work #box h2{
+#Work #box h2 {
     font-size: 1.2rem;
     font-family: Georgia;
     color: rgb(168, 168, 168);
@@ -553,7 +526,7 @@ body{
     padding-right: 30px;
 }
 
-#Work #box h1{
+#Work #box h1 {
     padding-top: 20px;
     font-size: 1.3rem;
     font-weight: 400;
@@ -564,23 +537,23 @@ body{
     padding-right: 30px;
 }
 
-#Work #box{
+#Work #box {
     background-color: rgb(0, 0, 0, 0.05);
     border-radius: 0.8rem;
 }
 
-#Work #box p{
+#Work #box p {
     color: #8892B0;
     font-family: Verdana;
     font-size: 15px;
-    line-height: 2rem;  
+    line-height: 2rem;
 }
 
-#Work a:hover{
-    color:#66FCF1;
+#Work a:hover {
+    color: #66FCF1;
 }
 
-#Work a{
+#Work a {
     color: rgb(219, 219, 219);
     padding-right: 20px;
     font-size: 25px;
@@ -588,9 +561,8 @@ body{
     padding-bottom: 20px;
 }
 
-@media screen and (min-width: 768px){
-    #Work #box{
+@media screen and (min-width: 768px) {
+    #Work #box {
         margin-left: -40px;
     }
 }
-
