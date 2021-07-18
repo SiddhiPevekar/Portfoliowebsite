@@ -252,18 +252,23 @@ body {
     .credits {
         text-align: center;
         color: #8892B0;
-        padding-top: 50px;
+        padding-top: 30px;
         font-family: Verdana;
         font-size: 16px;
-        padding-bottom: 30px;
+        padding-bottom: 50px;
+        position: fixed;
+        height: 50px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin-bottom: 0px;
+        background-color: #0A192F;
     }
     .credits a {
         text-align: center;
         color: #8892B0;
-        padding-top: 50px;
         font-family: Verdana;
         font-size: 16px;
-        padding-bottom: 30px;
     }
     .credits a:hover {
         text-decoration: none;
@@ -357,18 +362,22 @@ body {
     .credits {
         text-align: center;
         color: #8892B0;
-        padding-top: 20px;
         font-family: Verdana;
         font-size: 16px;
-        padding-bottom: 20px;
+        padding-bottom: 30px;
+        position: fixed;
+        height: 40px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin-bottom: 0px;
+        background-color: #0A192F;
     }
     .credits a {
         text-align: center;
         color: #8892B0;
-        padding-top: 50px;
         font-family: Verdana;
         font-size: 16px;
-        padding-bottom: 30px;
     }
     .credits a:hover {
         text-decoration: none;
@@ -376,13 +385,21 @@ body {
     }
     .icon-bar {
         text-align: center;
-        padding-top: 50px;
+        padding-top: 10px;
+        padding-bottom: 70px;
+        position: fixed;
+        height: 50px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin-bottom: 0px;
+        background-color: #0A192F;
     }
     .icon-bar a {
         text-align: center;
         color: rgb(219, 219, 219);
         padding-right: 20px;
-        font-size: 30px;
+        font-size: 20px;
     }
     .icon-bar a:hover {
         color: #66FCF1;
@@ -507,6 +524,7 @@ body {
 #Work {
     margin-top: 50px;
     padding-top: 100px;
+    margin-bottom: 150px;
 }
 
 #Work .section-heading h2 {
@@ -518,31 +536,109 @@ body {
     border-bottom: solid 1px #66FCF1;
 }
 
-#Work #box h2 {
+#Work .card {
+    position: relative;
+    max-width: 300px;
+    height: 280px;
+    margin: 30px 10px 0px 10px;
+    padding: 10px 15px 0px 15px;
+    /*fold the card*/
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s ease-in-out;
+}
+
+#Work .card:hover {
+    min-height: 800px;
+    /* margin-bottom: 80px; */
+}
+
+@media screen and (max-width: 330px) {
+    #Work .card:hover {
+        min-height: 900px;
+        /* margin-bottom: 80px; */
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    #Work .card:hover {
+        min-height: 800px!important;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    #Work .card:hover {
+        min-height: 750px;
+        /* margin-bottom: 80px; */
+    }
+}
+
+#Work .card .img-box {
+    position: relative;
+    width: 260px;
+    height: 260px;
+}
+
+#Work .card .img-box img {
+    max-width: 100%;
+    border-radius: 4px;
+    top: -60px;
+    left: 20px;
+}
+
+
+/* @media screen and (max-width: 350px) {
+    #Work .card .img-box {
+        position: relative;
+        width: 200px!important;
+        height: 200px!important;
+    }
+} */
+
+#Work .card .description {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+#Work .card:hover .description {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -20px;
+    transition-delay: 0.3s;
+    /*The transition-delay property specifies when the transition effect will start.*/
+}
+
+#Work .card h2 {
     font-size: 1.2rem;
     font-family: Georgia;
     color: rgb(168, 168, 168);
-    text-align: right;
-    padding-right: 30px;
+    padding-right: 20px;
+    text-align: end;
 }
 
-#Work #box h1 {
+#Work .card h1 {
     padding-top: 20px;
     font-size: 1.3rem;
     font-weight: 400;
     margin-bottom: 1rem;
     color: #66FCF1;
     font-family: Georgia;
-    text-align: right;
+    text-align: center;
     padding-right: 30px;
 }
 
-#Work #box {
+#Work .card {
     background-color: rgb(0, 0, 0, 0.05);
     border-radius: 0.8rem;
 }
 
-#Work #box p {
+#Work .card p {
     color: #8892B0;
     font-family: Verdana;
     font-size: 15px;
@@ -561,8 +657,10 @@ body {
     padding-bottom: 20px;
 }
 
+
+/*
 @media screen and (min-width: 768px) {
     #Work #box {
         margin-left: -40px;
     }
-}
+} */
